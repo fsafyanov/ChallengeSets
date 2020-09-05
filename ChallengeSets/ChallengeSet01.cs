@@ -5,14 +5,7 @@ namespace ChallengeSets
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            if (num1 == num2)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return num1 == num2;
         }
 
         public double Subtract(double minuend, double subtrahend)
