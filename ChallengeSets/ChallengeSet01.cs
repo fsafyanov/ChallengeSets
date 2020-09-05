@@ -44,11 +44,7 @@ namespace ChallengeSets
 
         public string GetGreeting(string nameOfPerson)
         {
-            if (nameOfPerson == "")
-            {
-                return "Hello!";
-            }
-            return $"Hello, {nameOfPerson}!";
+            return (nameOfPerson == "") ? "Hello!" : $"Hello, {nameOfPerson}!";
         }
 
         public string GetHey()
